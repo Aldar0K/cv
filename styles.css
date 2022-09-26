@@ -1,0 +1,218 @@
+/* reset */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family:inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding:0;border:0;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size:inherit;font-weight: 400;
+}
+/*--------------------*/
+
+html {
+  font-size: 1em;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+  font-family: 'Noto Serif', serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+
+  max-width: 840px;
+  width: 100%;
+}
+
+/* aside */
+.aside {
+  display: flex;
+
+  padding: 1rem;
+
+  width: 35%;
+
+  flex-direction: column;
+
+  background-color: #0b6248;
+}
+
+.avatar {
+  display: flex;
+
+  margin-bottom: 1rem;
+
+  justify-content: center;
+}
+
+.avatar__image {
+  width: 100%;
+}
+
+.avatar__image img {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.name {
+  display: flex;
+
+  margin-bottom: 2rem;
+
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.name__title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.name__subtitle {
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contacts {
+  display: flex;
+
+  margin-bottom: 2rem;
+
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contacts__title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contacts__list {}
+
+.contacts__item {}
+
+.contacts__link {
+  display: flex;
+
+  margin-left: 1rem;
+
+  gap: .7rem;
+  align-items: center;
+}
+
+.contacts__text {
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+.contacts__icon {
+  padding: 0.2rem;
+
+  max-width: 2rem;
+  width: 100%;
+
+  background-color: #FFFFFF;
+  border-radius: 10%;
+}
+
+.contacts__icon img {
+  width: 100%;
+}
+
+/* main */
+.main {
+  width: 65%;
+}
