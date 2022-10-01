@@ -249,8 +249,9 @@ h3 {
 .skills__list {
   display: flex;
 
-  gap: 2rem;
   flex-wrap: wrap;
+  column-gap: 1.5rem;
+  row-gap: 1rem;
 }
 
 .skills__item {
@@ -381,6 +382,13 @@ h3 {
   gap: .2rem;
 }
 
+.project {
+  display: flex;
+
+  flex-direction: column;
+  gap: .5rem;
+}
+
 .project__title {
   font-weight: 700;
   text-transform: capitalize;
@@ -390,4 +398,15 @@ h3 {
   font-size: 1.07rem;
   line-height: 1.3rem;
   color: var(--color-black);
+}
+
+.project__links {
+  display: flex;
+
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.project__link {
+  padding-left: 1rem;
 }
