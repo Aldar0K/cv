@@ -290,10 +290,7 @@ h3 {
 }
 
 .languages {
-  display: flex;
-
-  flex-direction: column;
-  gap: 1rem;
+  margin-bottom: 0;
 }
 
 .languages__item {
