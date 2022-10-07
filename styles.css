@@ -127,7 +127,7 @@ h3 {
 
   margin: 0 auto;
 
-  height: 1032px;
+  max-height: 1032px;
   max-width: 800px;
   width: 100%;
 }
@@ -237,8 +237,10 @@ h3 {
   align-items: center;
 }
 
-.contacts__text {
-  font-size: 1.1rem;
+.contacts__text,
+.skills__text,
+.languages__text {
+  font-size: 1.05rem;
   color: var(--color-white);
 }
 
@@ -284,11 +286,6 @@ h3 {
   width: 100%;
 }
 
-.skills__text {
-  font-size: 1rem;
-  color: var(--color-white);
-}
-
 .languages {
   margin-bottom: 0;
 }
@@ -309,11 +306,6 @@ h3 {
 
 .languages__icon img {
  max-width: 100%;
-}
-
-.languages__text {
-  font-size: 1.1rem;
-  color: var(--color-white);
 }
 
 /* main */
@@ -423,4 +415,12 @@ h3 {
 
 .project__icon img {
   width: 100%;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    padding: 0 20px;
+  
+    max-height: none;
+  }
 }
